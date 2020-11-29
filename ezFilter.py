@@ -1,4 +1,5 @@
 from PIL import Image
+from pathlib import Path
 from sys import argv
 import time
 import os
@@ -8,7 +9,7 @@ script, first = argv
 ext = (".jpeg",".jpg",".png")
 counter = 0
 
-from pathlib import Path
+
 Path(f"{first}").mkdir(parents=True, exist_ok=True)
 while not os.path.exists(first[0:-1]):
     time.sleep(0.5)
