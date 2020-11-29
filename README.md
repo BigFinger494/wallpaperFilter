@@ -5,4 +5,3 @@ This script moves to any directory images that fits to monitor's wallpaper
 
 для вызова скрипта следует ввести в командной строке ezFilter.py <Путь до директории>   
 
-Если есть идеи, как реализовать предварительное создание директории, буду рад их услышать
