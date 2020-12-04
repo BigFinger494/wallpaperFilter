@@ -1,5 +1,5 @@
 import unittest
-import ezFilter  as tested_app
+import ezFilter as tested_app
 import json
 import os.path
 import argparse
@@ -14,7 +14,7 @@ class FilterScriptTests(unittest.TestCase):
        
 
     def test_create_new_folderTest(self):
-        path = tested_app.createDirectory("\\newFoldah")
+        path = tested_app.createDirectory()
         self.assertTrue(os.path.exists(path))
 
 
