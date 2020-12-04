@@ -1,4 +1,5 @@
 from PIL import Image
+from pathlib import Path
 from sys import argv
 import time
 import os
@@ -37,5 +38,3 @@ def main():
 
 if __name__ =="main":
     main()
-
-
