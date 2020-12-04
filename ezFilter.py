@@ -5,7 +5,8 @@ import time
 import os
 import shutil
 
-script, first = argv
+#script, first = argv
+first = "\\newFolderForCopyiedWallpapers"
 ext = (".jpeg",".jpg",".png")
 counter = 0
 
