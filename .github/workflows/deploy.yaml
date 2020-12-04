@@ -26,8 +26,8 @@ jobs:
       - name: Tests report
         run: coverage report
       - name: Generate .exe file
-        run: pyinstaller ezFilter.py
+        run: pyinstaller -F ezFilter.py
       - uses: actions/upload-artifact@v2
         with:
           name: my-artifact
-          path: EzFile.exe
+          path: ezFile.exe
