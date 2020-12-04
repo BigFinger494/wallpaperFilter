@@ -6,7 +6,7 @@ class FilterScriptTests(unittest.TestCase):
 
     def setUp(self):
         tested_app.first= "\\newFolder"
-        tested_app.script = ""
+        tested_app.script = "asd"
        
 
     def test_create_new_folder(self):
